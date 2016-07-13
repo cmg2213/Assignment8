@@ -1,0 +1,14 @@
+Caleb Gershengorn
+
+1:
+It will print a,a (the zeroth term in the array which prints twice because it is twice not equal to 3)
+I think it would then return 1 and end the function, but that seems completely wrong, but it makes sense since the code is at one point not equal to 3, thus it would return 1 and end.
+
+2:
+Based on the logic from the first answer, none of the code from underneath the return 1 runs because the return statement has terminated the code.
+
+3:
+Assuming that I am mistaken about the return ending the code, the lines with memory errors would be lines 27-28 and 19-20
+
+4:
+I honestly do not know, but I would guess that you could make the q in line 28 a dereference operator tomake sure that the memory is called and thus not lost.
